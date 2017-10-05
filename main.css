@@ -1,0 +1,30 @@
+body            {background-color: darkslategray;}
+#search         {margin-top: 40px;}
+#fcc {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: cornsilk;
+}
+#channels {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: azure;
+}
+#errors {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: gray;
+}
+#errors .item:first-of-type {margin-bottom: 15px}
+#errors img                 {width: 64px; margin-right: 10px}
+.media {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  background-color: aliceblue;
+  margin: 15px 0;
+}
+.media-object   {width: 64px;}
+.media-heading  {float: left;}
+.account-status {float: right;}
+.media-body > p {clear: both;}
